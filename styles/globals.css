@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --twitterWhite : #e7e9ea;
+  --twitterBlue : #308cd8;
+  --twitterBorder : #2f3336;
+  --twitterLightGrey : #71767b;
+  --twitterDarkGrey : #17181c;
+}
+
+body {
+  background-color: #000;
+  color: var(--twitterWhite);
+}
+
+.login-body{
+  background-color: rgba(91, 112, 131, 0.4);
+}
